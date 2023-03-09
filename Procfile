@@ -1,1 +1,1 @@
-web: java -jar target/instarecipes-0.0.1-SNAPSHOT.jar --port=$PORT --host=$HOST
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/*.jar
