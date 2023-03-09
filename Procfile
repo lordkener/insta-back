@@ -1,1 +1,1 @@
-web: java --Java.ip=0.0.0.0 --port=$PORT --no-browser
+web: java -jar -Dserver.port=$PORT target/instarecipes-0.0.1-SNAPSHOT.jar>
